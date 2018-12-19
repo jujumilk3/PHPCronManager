@@ -80,7 +80,7 @@ class CronManager
         );
 
         $cron_duplication_check = $this->cron_duplication_checker($cron_tag);
-        $managed_command = 'echo -e "`crontab -l`\n'.$command.' #CRONTAG='.$cron_tag.'" | crontab -';
+        $managed_command = '(crontab -l; echo "'.$command.' #CRONTAG='.$cron_tag.'") | crontab -';
 
         if (!$cron_tag) {
             $result['status'] = 'INPUT_ERROR';
