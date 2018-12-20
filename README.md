@@ -15,10 +15,10 @@ And understandably **crond** installed.
 <br><br>
 
 ### Update Note
-v1.01(2018-12-20)
- -function add_cronjob's command changed more safety.<br>
-v1.00(2018-11-10)
- -uploaded
+- v1.01(2018-12-20)
+- function add_cronjob's command changed more safety.<br>
+- v1.00(2018-11-10)
+- uploaded
 
 e.g (assume u to load this file completely)<br>
 ```php
