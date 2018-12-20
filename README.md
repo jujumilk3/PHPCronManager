@@ -16,7 +16,7 @@ And understandably **crond** installed.
 
 ### Update Note
 v1.01(2018-12-20)
- -function add_cronjob's command changed more safety.
+ -function add_cronjob's command changed more safety.<br>
 v1.00(2018-11-10)
  -uploaded
 
